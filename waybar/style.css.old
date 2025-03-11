@@ -1,0 +1,148 @@
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: "iosevka nerd font";
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
+  margin: 0px 3px 0px 3px;
+}
+
+window#waybar {
+  background: rgba(29, 32, 33, 0.8);
+  border: 2px solid #434a4c;
+
+}
+
+tooltip {
+  background-color: #1d2021;
+  border: 2px solid #434a4c;
+}
+
+#clock,
+#custom-exit,
+#tray,
+#cpu,
+#window,
+#custom-appmenu,
+#custom-quicklink3,
+#bluetooth,
+#memory,
+#battery,
+#network,
+#pulseaudio {
+  margin: 6px 6px 6px 0px;
+  padding: 2px 8px;
+}
+
+#workspaces {
+
+  margin: 6px 6px 6px 6px;
+
+}
+
+#workspaces button {
+  all: initial;
+  border: 2px solid #434a4c;
+  min-width: 0;
+  background-color: #303536;
+  box-shadow: inset 0 -3px transparent;
+  padding: 2px 20px 0px 20px;
+  margin: 0px 3px 0px 3px;
+  color: #ffffff;
+}
+
+#workspaces button.active {
+  color: #1d2021;
+  background-color: white;
+}
+
+#workspaces button.urgent {
+  background-color: #e78a4e;
+}
+
+#clock {
+  background-image: linear-gradient(90deg, #00731C 0%, #000000 50%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
+
+#custom-exit {
+  background-image: linear-gradient(90deg, #000000 0%, #000000 100%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
+
+#battery {
+  background-image: linear-gradient(90deg, #009F23 0%, #00871F 14%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
+
+
+
+#custom-quicklink3 {
+  background-image: linear-gradient(90deg, #00731C 0%, #00B827 50%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
+
+#window {
+  background-image: linear-gradient(90deg, #00B827 0%, #00FF32 100%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
+
+#custom-appmenu {
+  background-image: linear-gradient(90deg, #000000 0%, #00731C 90%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
+
+#pulseaudio {
+  background-image: linear-gradient(90deg, #00FF32 0%, #00E62E 14%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
+
+
+#network {
+  background-image: linear-gradient(90deg, #00E62E 0%, #00CC2A 14%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
+
+
+#cpu {
+  background-image: linear-gradient(90deg, #00CC2A 0%, #00B827 14%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
+
+#memory {
+  background-image: linear-gradient(90deg, #00B827 0%, #009F23 14%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
+
+#cpu.critical,
+#memory.critical {
+  background-color: #0000ff;
+  border: 2px solid #434a4c;
+  color: #c14a4a;
+}
+
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+  background-color: #0000ff;
+  border: 2px solid #434a4c;
+  color: #c14a4a;
+}
+
+#bluetooth {
+  background-image: linear-gradient(90deg, #00871F 0%, #00731C 14%);
+  border: 2px solid #434a4c;
+  color: #ffffff;
+}
